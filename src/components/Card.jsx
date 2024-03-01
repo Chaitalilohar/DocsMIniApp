@@ -5,6 +5,7 @@ import { IoClose } from "react-icons/io5";
 import { motion } from "framer-motion";
 
 function Card({ data, reference }) {
+  console.log('hell');
   return (
     <motion.div
       drag
